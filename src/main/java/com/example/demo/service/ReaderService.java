@@ -21,7 +21,7 @@ public class ReaderService {
     private static final Logger LOGGER = LoggerFactory.getLogger(ReaderService.class);
 
     private static final String FILE = "C:\\Users\\T006848\\Documents\\DOC\\files\\cm-caso-de-uso.xlsx";
-    private static final String FILE_VOLUMETRY = "C:\\Users\\T006848\\Documents\\DOC\\files\\volumetrias-interfaces.xlsx";
+    private static final String FILE_VOLUMETRY = "volumetrias-interfaces.xlsx";
 
     @Autowired
     private FileVolumetryRepository fileVolumetryRepository;

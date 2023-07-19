@@ -29,7 +29,7 @@ public class FileVolumetry implements Serializable {
         this.id = id;
     }
 
-    public String getBatchInterface() {
+    public String getBatchInterface(String stringCellValue) {
         return batchInterface;
     }
 
